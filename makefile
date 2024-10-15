@@ -1,2 +1,2 @@
 all:
-	gcc *.c -o tetris -Iinclude/ -lm -lraylib
+	gcc *.c -o tetris -Iinclude/ -lraylib -lGL -lm -lpthread -ldl -lrt -lX11

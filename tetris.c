@@ -49,7 +49,7 @@ int main(void) {
         }
 
         if (IsKeyPressed(KEY_UP)) {
-            RotateShape();
+            RotateShape(current_block[0].x, current_block[0].y);
         }
 
         input_counter++;
